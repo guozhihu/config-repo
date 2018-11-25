@@ -27,3 +27,4 @@ server:
 #   build.artifactId: $project.artifactId$
 #   build.version: $project.version$
 env: dev
+profile: env
