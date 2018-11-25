@@ -6,7 +6,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.183.61:7000/eureka/  
+      defaultZone: http://eureka1.com:7000/eureka/  
 spring:
   application:
     name: order                            # 对外暴露的微服务名字
