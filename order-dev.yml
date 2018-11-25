@@ -7,9 +7,9 @@ server:
 #   mapper-locations:
 #   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
   
-# spring:
-#   application:
-#     name: microservicecloud-dept                            # 对外暴露的微服务名字
+spring:
+  application:
+    name: order                            # 对外暴露的微服务名字
 #   datasource:
 #     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
 #     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -27,4 +27,3 @@ server:
 #   build.artifactId: $project.artifactId$
 #   build.version: $project.version$
 env: dev
-profile: dev
