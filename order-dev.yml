@@ -6,10 +6,9 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
-      profile: dev
+ 
 eureka:
   client:
     service-url:
       defaultZone: http://192.168.183.61:7000/eureka/
 env: dev
-label: release
