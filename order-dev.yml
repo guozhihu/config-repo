@@ -31,4 +31,4 @@ info:
   company.name: www.tuanduoduo.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-env: dev
+env: test
